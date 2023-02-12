@@ -37,11 +37,17 @@
           get more leads for your company.
         </p>
         <button class="main__button">Request Beta Access</button>
-        <img
-          class="main__image"
-          src="./assets/image-hero-landscape.png"
-          alt="Phone"
-        />
+        <picture>
+          <source
+            media="(min-width: 600px)"
+            srcset="./assets/image-hero-portrait.png"
+          />
+          <img
+            class="main__image"
+            src="./assets/image-hero-landscape.png"
+            alt="Phone"
+          />
+        </picture>
         <div class="main__data">
           <div class="main__data__point">
             <div class="main__data__point__number">2K+</div>

@@ -170,6 +170,8 @@ body {
       text-align: center;
       letter-spacing: 0.09px;
       color: #f3ede7;
+      margin: 0;
+      margin-top: 40px;
     }
 
     &__name {
@@ -228,5 +230,86 @@ body {
   &__socials {
     display: flex;
     gap: 28px;
+  }
+}
+
+@media (min-width: 600px) {
+  .header,
+  .main {
+    margin: 0 39px 0 40px;
+  }
+
+  .header {
+    padding-top: 40px;
+    &__button {
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: -0.16px;
+      padding: 11px 23px 11px 22px;
+    }
+  }
+
+  .main {
+    &__hero {
+      position: relative;
+      margin-top: 80px;
+      background-size: 231px 29px;
+      background-position: top 42px right 200px;
+    }
+
+    &__image {
+      margin-top: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 482px;
+      width: 281px;
+      z-index: -1;
+    }
+
+    &__heading {
+      width: 80%;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: -0.777778px;
+      padding-top: 88px;
+    }
+
+    &__para {
+      margin-top: 40px;
+      width: 53.4%;
+    }
+
+    &__button {
+      margin-top: 40px;
+      padding: 15px 31.5px 14px 32.5px;
+    }
+
+    &__data {
+      margin-top: 128px;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    &__quote {
+      margin-top: 273px;
+
+      &__content {
+        margin: 0 58px;
+      }
+    }
+  }
+
+  .footer {
+    height: 640px;
+    margin-top: -464px;
+    &__content {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 39px 0 40px;
+      margin-top: 536px;
+    }
   }
 }

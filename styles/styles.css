@@ -153,6 +153,8 @@ body {
   text-align: center;
   letter-spacing: 0.09px;
   color: #f3ede7;
+  margin: 0;
+  margin-top: 40px;
 }
 .main__quote__name {
   font-weight: 700;
@@ -204,4 +206,73 @@ body {
 .footer__socials {
   display: flex;
   gap: 28px;
+}
+
+@media (min-width: 600px) {
+  .header,
+  .main {
+    margin: 0 39px 0 40px;
+  }
+  .header {
+    padding-top: 40px;
+  }
+  .header__button {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    padding: 11px 23px 11px 22px;
+  }
+  .main__hero {
+    position: relative;
+    margin-top: 80px;
+    background-size: 231px 29px;
+    background-position: top 42px right 200px;
+  }
+  .main__image {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 482px;
+    width: 281px;
+    z-index: -1;
+  }
+  .main__heading {
+    width: 80%;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.777778px;
+    padding-top: 88px;
+  }
+  .main__para {
+    margin-top: 40px;
+    width: 53.4%;
+  }
+  .main__button {
+    margin-top: 40px;
+    padding: 15px 31.5px 14px 32.5px;
+  }
+  .main__data {
+    margin-top: 128px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .main__quote {
+    margin-top: 273px;
+  }
+  .main__quote__content {
+    margin: 0 58px;
+  }
+  .footer {
+    height: 640px;
+    margin-top: -464px;
+  }
+  .footer__content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 39px 0 40px;
+    margin-top: 536px;
+  }
 }/*# sourceMappingURL=styles.css.map */

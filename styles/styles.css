@@ -33,11 +33,11 @@ body {
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   letter-spacing: -0.14px;
-  color: #172339;
-  border: 1px solid #172339;
+  color: hsl(219deg, 43%, 16%);
+  border: 1px solid hsl(219deg, 43%, 16%);
   border-radius: 6px;
   background-color: #ffffff;
   padding: 11px 16px 11px 15px;
@@ -52,10 +52,10 @@ body {
 }
 .main__heading {
   font-weight: 400;
-  font-size: 38px;
-  line-height: 44px;
+  font-size: 2.375rem;
+  line-height: 2.75rem;
   letter-spacing: -0.527778px;
-  color: #172339;
+  color: hsl(219deg, 43%, 16%);
   margin: 0;
   padding-top: 27px;
 }
@@ -64,10 +64,10 @@ body {
 }
 .main__para {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1rem;
+  line-height: 1.75rem;
   letter-spacing: 0.0888889px;
-  color: #49566d;
+  color: hsl(218deg, 20%, 36%);
   margin: 0;
   margin-top: 32px;
 }
@@ -75,11 +75,11 @@ body {
   font-family: "Epilogue";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   letter-spacing: -0.18px;
-  color: #faf8f6;
-  background: #172339;
+  color: hsl(30deg, 29%, 97%);
+  background: hsl(219deg, 43%, 16%);
   border-radius: 6px;
   padding: 15px 31px 14px 32px;
   border: none;
@@ -101,22 +101,22 @@ body {
 }
 .main__data__point__number {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 3rem;
+  line-height: 3.5rem;
   text-align: center;
-  color: #172339;
+  color: hsl(219deg, 43%, 16%);
   margin: 0;
 }
 .main__data__point__text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   text-align: center;
   letter-spacing: 2.5px;
-  color: #49566d;
+  color: hsl(218deg, 20%, 36%);
 }
 .main__quote {
-  background: #172339;
+  background: hsl(219deg, 43%, 16%);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -135,11 +135,11 @@ body {
 }
 .main__quote__heading {
   font-weight: 400;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   text-align: center;
   letter-spacing: -0.416667px;
-  color: #faf8f6;
+  color: hsl(30deg, 29%, 97%);
   margin: 0;
   margin-top: 37px;
 }
@@ -148,37 +148,37 @@ body {
 }
 .main__quote__para {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   text-align: center;
   letter-spacing: 0.09px;
-  color: #f3ede7;
+  color: hsl(30deg, 33%, 93%);
   margin: 0;
   margin-top: 40px;
 }
 .main__quote__name {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   text-align: center;
   letter-spacing: -0.18px;
-  color: #faf8f6;
+  color: hsl(30deg, 29%, 97%);
   margin: 0;
   margin-top: 40px;
   text-transform: uppercase;
 }
 .main__quote__position {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   text-align: center;
   letter-spacing: 2.5px;
-  color: #f3ede7;
+  color: hsl(30deg, 33%, 93%);
   text-transform: uppercase;
 }
 
 .footer {
-  background: #f3ede7;
+  background: hsl(30deg, 33%, 93%);
   height: 420px;
   margin-top: -134px;
   width: 100%;
@@ -197,11 +197,11 @@ body {
 }
 .footer__text {
   font-weight: 400;
-  font-size: 15px;
-  line-height: 32px;
+  font-size: 0.938rem;
+  line-height: 2rem;
   text-align: center;
   letter-spacing: 0.0833333px;
-  color: #49566d;
+  color: hsl(218deg, 20%, 36%);
 }
 .footer__socials {
   display: flex;
@@ -217,8 +217,8 @@ body {
     padding-top: 40px;
   }
   .header__button {
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 1rem;
+    line-height: 2rem;
     letter-spacing: -0.16px;
     padding: 11px 23px 11px 22px;
   }
@@ -239,8 +239,8 @@ body {
   }
   .main__heading {
     width: 80%;
-    font-size: 56px;
-    line-height: 64px;
+    font-size: 3.5rem;
+    line-height: 4rem;
     letter-spacing: -0.777778px;
     padding-top: 88px;
   }
@@ -289,8 +289,8 @@ body {
   }
   .header__button:hover {
     cursor: pointer;
-    color: #faf8f6;
-    background: #172339;
+    color: hsl(30deg, 29%, 97%);
+    background: hsl(219deg, 43%, 16%);
   }
   .main__hero {
     margin-top: 67px;
@@ -306,14 +306,14 @@ body {
   .main__heading {
     padding-top: 103px;
     width: 65.7%;
-    font-size: 72px;
-    line-height: 78px;
+    font-size: 4.5rem;
+    line-height: 4.875rem;
     letter-spacing: -1px;
   }
   .main__para {
     width: 36.2%;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     letter-spacing: 0.1px;
   }
   .main__button {
@@ -356,14 +356,14 @@ body {
     padding: 88px 0;
   }
   .main__quote__heading {
-    font-size: 48px;
-    line-height: 56px;
+    font-size: 3rem;
+    line-height: 3.5rem;
     letter-spacing: -0.5px;
     margin: 0;
   }
   .main__quote__para {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 1.25rem;
+    line-height: 2.188rem;
     letter-spacing: 0.1px;
     text-align: start;
   }

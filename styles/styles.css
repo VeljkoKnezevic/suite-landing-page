@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
+  background-color: hsl(30deg, 29%, 97%);
 }
 
 .header,
@@ -292,11 +293,20 @@ body {
     color: hsl(30deg, 29%, 97%);
     background: hsl(219deg, 43%, 16%);
   }
+  .header__logo {
+    width: 78.5px;
+    height: 24.5px;
+  }
   .main__hero {
+    margin-left: 0;
+    padding-left: 0;
     margin-top: 67px;
     display: flex;
     background-size: 287px 36px;
     background-position: top 45px right 500px;
+  }
+  .main__hero__content {
+    width: 635px;
   }
   .main__image {
     height: 600px;
@@ -305,13 +315,13 @@ body {
   }
   .main__heading {
     padding-top: 103px;
-    width: 65.7%;
+    width: 100%;
     font-size: 4.5rem;
     line-height: 4.875rem;
     letter-spacing: -1px;
   }
   .main__para {
-    width: 36.2%;
+    width: 55.15%;
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: 0.1px;
@@ -329,6 +339,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     gap: 63px;
+    margin-left: 285px;
   }
   .main__data__point {
     align-items: start;
@@ -369,7 +380,7 @@ body {
   }
   .footer {
     height: 464px;
-    margin-top: -104px;
+    margin-top: -265px;
   }
   .footer__content {
     margin-top: 360px;

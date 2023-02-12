@@ -17,6 +17,7 @@ html {
 body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
+  background-color: $cream-white;
 }
 
 .header,
@@ -337,14 +338,25 @@ body {
         background: $dark-blue;
       }
     }
+
+    &__logo {
+      width: 78.5px;
+      height: 24.5px;
+    }
   }
 
   .main {
     &__hero {
+      margin-left: 0;
+      padding-left: 0;
       margin-top: 67px;
       display: flex;
       background-size: 287px 36px;
       background-position: top 45px right 500px;
+
+      &__content {
+        width: 635px;
+      }
     }
 
     &__image {
@@ -355,14 +367,14 @@ body {
 
     &__heading {
       padding-top: 103px;
-      width: 65.7%;
+      width: 100%;
       font-size: 4.5rem;
       line-height: 4.875rem;
       letter-spacing: -1px;
     }
 
     &__para {
-      width: 36.2%;
+      width: 55.15%;
       font-size: 1.125rem;
       line-height: 2rem;
       letter-spacing: 0.1px;
@@ -388,6 +400,7 @@ body {
       flex-direction: column;
       justify-content: space-between;
       gap: 63px;
+      margin-left: 285px;
 
       &__point {
         align-items: start;
@@ -437,7 +450,7 @@ body {
 
   .footer {
     height: 464px;
-    margin-top: -104px;
+    margin-top: -265px;
 
     &__content {
       margin-top: 360px;

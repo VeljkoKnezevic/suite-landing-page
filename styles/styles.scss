@@ -13,3 +13,220 @@ body {
   margin: 0;
   font-family: "Epilogue", sans-serif;
 }
+
+.header,
+.main__hero {
+  margin: 0 16px;
+}
+
+.header {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 81px;
+    height: 32px;
+  }
+
+  &__button {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    color: #172339;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 11px 16px 11px 15px;
+  }
+}
+
+.main {
+  &__hero {
+    margin-top: 56px;
+    background-image: url(../assets/pattern-curved-line-1.svg);
+    background-repeat: no-repeat;
+    background-size: 151px 19px;
+    background-position: top 0px right 20%;
+  }
+
+  &__heading {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.527778px;
+    color: #172339;
+    margin: 0;
+    padding-top: 27px;
+
+    &--dark {
+      font-weight: 700;
+    }
+  }
+
+  &__para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+    color: #49566d;
+    margin: 0;
+    margin-top: 32px;
+  }
+
+  &__button {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #faf8f6;
+    background: #172339;
+    border-radius: 6px;
+    padding: 15px 31px 14px 32px;
+    border: none;
+    margin-top: 32px;
+  }
+
+  &__image {
+    margin-top: 55px;
+  }
+
+  &__data {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__point {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__number {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+        margin: 0;
+      }
+
+      &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566d;
+      }
+    }
+  }
+
+  &__quote {
+    background: #172339;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 237px;
+
+    &__image {
+      margin-top: -181px;
+    }
+
+    &__content {
+      margin: 0 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0 64px;
+    }
+
+    &__heading {
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -0.416667px;
+      color: #faf8f6;
+      margin: 0;
+      margin-top: 37px;
+
+      &--dark {
+        font-weight: 700;
+      }
+    }
+
+    &__para {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.09px;
+      color: #f3ede7;
+    }
+
+    &__name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: -0.18px;
+      color: #faf8f6;
+      margin: 0;
+      margin-top: 40px;
+      text-transform: uppercase;
+    }
+
+    &__position {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 2.5px;
+      color: #f3ede7;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.footer {
+  background: #f3ede7;
+  height: 420px;
+  margin-top: -134px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+
+    color: #49566d;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 28px;
+  }
+}

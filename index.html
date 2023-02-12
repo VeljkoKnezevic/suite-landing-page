@@ -26,28 +26,30 @@
     </header>
 
     <main class="main">
-      <section class="main__hero">
-        <h1 class="main__heading">
-          A
-          <span class="main__heading--dark">super solution</span>
-          for your <span class="main__heading--dark">business.</span>
-        </h1>
-        <p class="main__para">
-          Our marketing and sales automations help you scale your outreach to
-          get more leads for your company.
-        </p>
-        <button class="main__button">Request Beta Access</button>
-        <picture>
-          <source
-            media="(min-width: 600px)"
-            srcset="./assets/image-hero-portrait.png"
-          />
-          <img
-            class="main__image"
-            src="./assets/image-hero-landscape.png"
-            alt="Phone"
-          />
-        </picture>
+      <div class="main__hero">
+        <section class="main__hero__content">
+          <h1 class="main__heading">
+            A
+            <span class="main__heading--dark">super solution</span>
+            for your <span class="main__heading--dark">business.</span>
+          </h1>
+          <p class="main__para">
+            Our marketing and sales automations help you scale your outreach to
+            get more leads for your company.
+          </p>
+          <button class="main__button">Request Beta Access</button>
+          <picture>
+            <source
+              media="(min-width: 600px)"
+              srcset="./assets/image-hero-portrait.png"
+            />
+            <img
+              class="main__image"
+              src="./assets/image-hero-landscape.png"
+              alt="Phone"
+            />
+          </picture>
+        </section>
         <div class="main__data">
           <div class="main__data__point">
             <div class="main__data__point__number">2K+</div>
@@ -62,13 +64,19 @@
             <div class="main__data__point__text">Leads</div>
           </div>
         </div>
-      </section>
+      </div>
       <div class="main__quote">
-        <img
-          class="main__quote__image"
-          src="./assets/image-jeremy-small.png"
-          alt="Jeremy from suite"
-        />
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="./assets/image-jeremy-large.png"
+          />
+          <img
+            class="main__quote__image"
+            src="./assets/image-jeremy-small.png"
+            alt="Jeremy from suite"
+          />
+        </picture>
         <section class="main__quote__content">
           <img
             class="main__quote__curve"
@@ -95,17 +103,17 @@
         <div class="footer__text">Copyright - Suite</div>
         <div class="footer__socials">
           <img
-            class="facebook"
+            class="footer__social facebook"
             src="./assets/icon-facebook.svg"
             alt="Suite Facebook"
           />
           <img
-            class="twitter"
+            class="footer__social twitter"
             src="./assets/icon-twitter.svg"
             alt="Suite Twitter"
           />
           <img
-            class="instagram"
+            class="footer__social instagram"
             src="./assets/icon-instagram.svg"
             alt="Suite Instagram"
           />

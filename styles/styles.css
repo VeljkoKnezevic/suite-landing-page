@@ -275,4 +275,109 @@ body {
     padding: 0 39px 0 40px;
     margin-top: 536px;
   }
+}
+@media (min-width: 1200px) {
+  .header,
+  .main {
+    margin: 0 166px 0 164px;
+  }
+  .header {
+    padding-top: 50px;
+  }
+  .header__button {
+    padding: 11px 23.5px 11px 23px;
+  }
+  .header__button:hover {
+    cursor: pointer;
+    color: #faf8f6;
+    background: #172339;
+  }
+  .main__hero {
+    margin-top: 67px;
+    display: flex;
+    background-size: 287px 36px;
+    background-position: top 45px right 500px;
+  }
+  .main__image {
+    height: 600px;
+    width: 350px;
+    right: 250px;
+  }
+  .main__heading {
+    padding-top: 103px;
+    width: 65.7%;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+  }
+  .main__para {
+    width: 36.2%;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+  }
+  .main__button {
+    margin-top: 52px;
+  }
+  .main__button:hover {
+    cursor: pointer;
+    background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+  }
+  .main__data {
+    margin-top: 0;
+    padding-top: 113px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 63px;
+  }
+  .main__data__point {
+    align-items: start;
+  }
+  .main__quote {
+    margin-top: 290px;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-end;
+  }
+  .main__quote__image {
+    margin-top: -48.5px;
+    margin-left: 121.5px;
+    margin-bottom: -4px;
+  }
+  .main__quote__curve {
+    position: absolute;
+    top: 161px;
+    right: 527px;
+  }
+  .main__quote__content {
+    margin-right: 125px;
+    margin-left: 152px;
+    align-items: flex-start;
+    padding: 88px 0;
+  }
+  .main__quote__heading {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+  .main__quote__para {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    text-align: start;
+  }
+  .footer {
+    height: 464px;
+    margin-top: -104px;
+  }
+  .footer__content {
+    margin-top: 360px;
+    padding: 0 167px 0 164px;
+  }
+  .footer__social:hover {
+    cursor: pointer;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
 }/*# sourceMappingURL=styles.css.map */

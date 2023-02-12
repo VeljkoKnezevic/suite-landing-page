@@ -313,3 +313,136 @@ body {
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .header,
+  .main {
+    margin: 0 166px 0 164px;
+  }
+
+  .header {
+    padding-top: 50px;
+
+    &__button {
+      padding: 11px 23.5px 11px 23px;
+
+      &:hover {
+        cursor: pointer;
+        color: #faf8f6;
+        background: #172339;
+      }
+    }
+  }
+
+  .main {
+    &__hero {
+      margin-top: 67px;
+      display: flex;
+      background-size: 287px 36px;
+      background-position: top 45px right 500px;
+    }
+
+    &__image {
+      height: 600px;
+      width: 350px;
+      right: 250px;
+    }
+
+    &__heading {
+      padding-top: 103px;
+      width: 65.7%;
+      font-size: 72px;
+      line-height: 78px;
+      letter-spacing: -1px;
+    }
+
+    &__para {
+      width: 36.2%;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+    }
+
+    &__button {
+      margin-top: 52px;
+
+      &:hover {
+        cursor: pointer;
+        background: linear-gradient(
+          135deg,
+          #a060ff 0%,
+          #cb30e3 49.21%,
+          #ffa84e 100%
+        );
+      }
+    }
+
+    &__data {
+      margin-top: 0;
+      padding-top: 113px;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 63px;
+
+      &__point {
+        align-items: start;
+      }
+    }
+
+    &__quote {
+      margin-top: 290px;
+      flex-direction: row;
+      position: relative;
+      align-items: flex-end;
+
+      &__image {
+        margin-top: -48.5px;
+        margin-left: 121.5px;
+        margin-bottom: -4px;
+      }
+
+      &__curve {
+        position: absolute;
+        top: 161px;
+        right: 527px;
+      }
+
+      &__content {
+        margin-right: 125px;
+        margin-left: 152px;
+        align-items: flex-start;
+        padding: 88px 0;
+      }
+
+      &__heading {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        margin: 0;
+      }
+
+      &__para {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.1px;
+        text-align: start;
+      }
+    }
+  }
+
+  .footer {
+    height: 464px;
+    margin-top: -104px;
+
+    &__content {
+      margin-top: 360px;
+      padding: 0 167px 0 164px;
+    }
+
+    &__social:hover {
+      cursor: pointer;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+  }
+}
